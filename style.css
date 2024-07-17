@@ -9,7 +9,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 100vh;
 }
 h1{
     font-size: 50px;
@@ -54,4 +54,53 @@ table{
 tr:hover{
     background-color: gold;
     color: red;
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-image: url(./pexels-photo-386009.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    h1{
+        font-size: 20px;
+        margin-top: 7px;
+        padding: 10px;
+        color:navy;
+        font-weight: bolder;
+    }
+    input{
+        height: 28px;
+        width: 195px;
+        border-radius: 7px;
+        border: none;
+        background-color:skyblue;
+        color: rgb(36, 36, 181);
+        /* font-size: 30px; */
+        box-shadow: 2px 2px 2px  black;
+        text-align: center;
+    }
+    button{
+        margin-top: 10px;
+        height: 30px;
+        width: 170px;
+        border: none;
+        border-radius: 7px;
+        /* font-size: 22.5px; */
+        background-color:goldenrod ;
+        box-shadow: 2px 2px 2px black;
+    }
+    button:hover{
+        background-color:cornflowerblue;
+        color: gold;
+    }
+    table{
+        margin-right: auto;
+        margin-left: auto;
+        border-color: cornflowerblue;
+        background-color: navy;
+        color: skyblue;
+        margin-top: 10px;
+    }
 }
