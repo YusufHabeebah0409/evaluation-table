@@ -64,15 +64,15 @@ tr:hover{
         height: 100vh;
     }
     h1{
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 7px;
         padding: 10px;
         color:navy;
         font-weight: bolder;
     }
     input{
-        height: 28px;
-        width: 195px;
+        height: 35px;
+        width: 185px;
         border-radius: 7px;
         border: none;
         background-color:skyblue;
