@@ -57,6 +57,7 @@ tr:hover{
 }
 @media only screen and (max-width: 500px) {
     body {
+        overflow: hidden;
         background-image: url(./pexels-photo-386009.webp);
         background-position: center;
         background-repeat: no-repeat;
@@ -72,7 +73,7 @@ tr:hover{
     }
     input{
         height: 35px;
-        width: 185px;
+        width: 175px;
         border-radius: 7px;
         border: none;
         background-color:skyblue;
@@ -84,7 +85,7 @@ tr:hover{
     button{
         margin-top: 10px;
         height: 30px;
-        width: 170px;
+        width: 160px;
         border: none;
         border-radius: 7px;
         /* font-size: 22.5px; */
